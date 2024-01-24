@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,31 @@
     <script src="script.js" defer></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="heading">The Odin Library</div>
+    <div class="listHeading">
+        <div>Your Books
+            <button class="creates">+</button>
+            <dialog>
+                <P>Enter New Book</P>
+                <form action="" id="bookForm" onsubmit="return false">
+                    Book Name:
+                    <input type="text" name="Book name" id="book" required><br>
+                    Author Name:
+                    <input type="text" name="Author" id="author" required><br>
+                    Pages:
+                    <input type="number" name="Page" id="page" required><br>
+                    Status
+                    <select name="status" id="bookStatus"><option value="Read">Read</option><option value="Unread">Unread</option></select><br>
+                    <button type="submit" class="add">Add</button> <button type="reset" class="cancelIt">Cancel</button>
+                </form>
+            </dialog>
+        </div>
+    </div>
+    <main>
+
+    </main>
 </body>
+
 </html>
